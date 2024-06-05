@@ -1,0 +1,46 @@
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 3rem;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  justify-self: left;
+  margin-left: 1rem;
+}
+
+nav .link {
+  color: white;
+  padding: 3rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  background-color: antiquewhite;
+  text-align: center;
+  padding: 1rem;
+}

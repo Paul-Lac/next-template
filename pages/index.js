@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Link from "next/link";
+import Image from "next/image";
 
 export default function IndexPage() {
   useEffect(() => console.log("index page did mount"), []);
@@ -7,9 +7,15 @@ export default function IndexPage() {
   return (
     <>
       <h1>Welcome !</h1>
-      <p>Please visit these two pages</p>
-      <Link href="/About">About us</Link>
-      <Link href="/TermsOfUse">Terms of Use</Link>
+      <div style={{ textAlign: "center", marginTop: "3rem" }}>
+        <Image
+          className="welcomeImg"
+          src="/images/coquelicot.jpg"
+          height={244}
+          width={304}
+          alt="coquelicot"
+        />
+      </div>
     </>
   );
 }

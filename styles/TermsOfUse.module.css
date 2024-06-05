@@ -1,0 +1,23 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.text {
+  text-align: justify;
+  margin-top: 3rem;
+}
+
+.validationContainer {
+  width: 20rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  display: block;
+  margin: auto;
+}
